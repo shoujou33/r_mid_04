@@ -14,6 +14,6 @@ my.sd <- function(input.vec){
 set.seed(32)
 test.vec <- round(runif(10) * 100)
 
-#Function call
+# Function call
 my.sd(test.vec)
 sd(test.vec)
